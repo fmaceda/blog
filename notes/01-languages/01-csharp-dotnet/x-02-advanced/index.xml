@@ -410,4 +410,8 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;// Invoke the delegate:&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;int&lt;/span&gt; result = comparator(left, right);
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br/&gt;
-&lt;p&gt;The compiler also generates add and remove handlers for this new type so that clients of this class can add and remove methods from an instance&amp;rsquo;s invocation list. The compiler will enforce that the signature of the method being added or removed matches the signature used when declaring the method.&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;The compiler also generates add and remove handlers for this new type so that clients of this class can add and remove methods from an instance&amp;rsquo;s invocation list. The compiler will enforce that the signature of the method being added or removed matches the signature used when declaring the method.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item></channel></rss>

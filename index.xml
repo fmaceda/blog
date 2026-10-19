@@ -417,7 +417,11 @@ Core &amp;ndash;&amp;gt;&lt;/p&gt;</description></item><item><title>Introduction
 &lt;div class="card-body"&gt;&lt;p&gt;&lt;strong&gt;What&amp;rsquo;s CSharp?&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;C# is a high-level, general-purpose programming language developed by Microsoft as part of the .NET framework. It&amp;rsquo;s an object-oriented language, meaning it uses objects to structure code and data, and is used to build a variety of applications. C# is known for its ease of learning, strong community support, and ability to produce highly performant code.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;.NET SDK Instalation&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;The easiest way to have the .NET SDK installed in your personal computer is to download &lt;a href="https://visualstudio.microsoft.com/" target="_blank" rel="noopener"&gt;Visual Studio&lt;/a&gt;. You can also use other IDE, but you will need to install the &lt;a href="https://dotnet.microsoft.com/en-us/download/visual-studio-sdks" target="_blank" rel="noopener"&gt;SDK&lt;/a&gt; manually.&lt;/p&gt;</description></item><item><title>Data Types</title><link>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-02-types/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-02-types/</guid><description>&lt;!-- Data types --&gt;
+&lt;p&gt;The easiest way to have the .NET SDK installed in your personal computer is to download &lt;a href="https://visualstudio.microsoft.com/" target="_blank" rel="noopener"&gt;Visual Studio&lt;/a&gt;. You can also use other IDE, but you will need to install the &lt;a href="https://dotnet.microsoft.com/en-us/download/visual-studio-sdks" target="_blank" rel="noopener"&gt;SDK&lt;/a&gt; manually.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item><item><title>Data Types</title><link>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-02-types/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-02-types/</guid><description>&lt;!-- Data types --&gt;
 &lt;div class="note-card "&gt;
 &lt;div class="item"&gt;
 &lt;h5 class="note-title"&gt;&lt;span&gt;Data Types&lt;/span&gt;&lt;/h5&gt;
@@ -455,7 +459,41 @@ Core &amp;ndash;&amp;gt;&lt;/p&gt;</description></item><item><title>Introduction
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Console.WriteLine(&lt;span style="color:#e6db74"&gt;&amp;#34;Product: &amp;#34;&lt;/span&gt; + product); &lt;span style="color:#75715e"&gt;// Product: 35&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Console.WriteLine(&lt;span style="color:#e6db74"&gt;&amp;#34;Quotient: &amp;#34;&lt;/span&gt; + quotient); &lt;span style="color:#75715e"&gt;// Quotient: 1&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Console.WriteLine(&lt;span style="color:#e6db74"&gt;$&amp;#34;Modulus: {7 % 5}&amp;#34;&lt;/span&gt;); &lt;span style="color:#75715e"&gt;// Modulus: 2&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Order of operations&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Methods</title><link>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-03-methods/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-03-methods/</guid><description>&lt;!-- Methods --&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Order of operations&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;In math, PEMDAS is an acronym that helps students remember the order of operations. The order is:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Parentheses (whatever is inside the parenthesis is performed first)&lt;/li&gt;
+&lt;li&gt;Exponents&lt;/li&gt;
+&lt;li&gt;Multiplication and Division (from left to right)&lt;/li&gt;
+&lt;li&gt;Addition and Subtraction (from left to right)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="card"&gt;
+&lt;div class="card-body"&gt;&lt;p&gt;&lt;strong&gt;Increment and decrement&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-csharp" data-lang="csharp"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;int&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;value&lt;/span&gt; = &lt;span style="color:#ae81ff"&gt;1&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;value&lt;/span&gt; = &lt;span style="color:#66d9ef"&gt;value&lt;/span&gt; + &lt;span style="color:#ae81ff"&gt;1&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Console.WriteLine(&lt;span style="color:#e6db74"&gt;&amp;#34;First increment: &amp;#34;&lt;/span&gt; + &lt;span style="color:#66d9ef"&gt;value&lt;/span&gt;); &lt;span style="color:#75715e"&gt;// First increment: 2&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;value&lt;/span&gt; += &lt;span style="color:#ae81ff"&gt;1&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Console.WriteLine(&lt;span style="color:#e6db74"&gt;&amp;#34;Second increment: &amp;#34;&lt;/span&gt; + &lt;span style="color:#66d9ef"&gt;value&lt;/span&gt;); &lt;span style="color:#75715e"&gt;// Second increment: 3&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;value&lt;/span&gt;++;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Console.WriteLine(&lt;span style="color:#e6db74"&gt;&amp;#34;Third increment: &amp;#34;&lt;/span&gt; + &lt;span style="color:#66d9ef"&gt;value&lt;/span&gt;); &lt;span style="color:#75715e"&gt;// Third increment: 4&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;value&lt;/span&gt; = &lt;span style="color:#66d9ef"&gt;value&lt;/span&gt; - &lt;span style="color:#ae81ff"&gt;1&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Console.WriteLine(&lt;span style="color:#e6db74"&gt;&amp;#34;First decrement: &amp;#34;&lt;/span&gt; + &lt;span style="color:#66d9ef"&gt;value&lt;/span&gt;); &lt;span style="color:#75715e"&gt;// First decrement: 3&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;value&lt;/span&gt; -= &lt;span style="color:#ae81ff"&gt;1&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Console.WriteLine(&lt;span style="color:#e6db74"&gt;&amp;#34;Second decrement: &amp;#34;&lt;/span&gt; + &lt;span style="color:#66d9ef"&gt;value&lt;/span&gt;); &lt;span style="color:#75715e"&gt;// Second decrement: 2&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;value&lt;/span&gt;--;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Console.WriteLine(&lt;span style="color:#e6db74"&gt;&amp;#34;Third decrement: &amp;#34;&lt;/span&gt; + &lt;span style="color:#66d9ef"&gt;value&lt;/span&gt;); &lt;span style="color:#75715e"&gt;// Third decrement: 1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item><item><title>Methods</title><link>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-03-methods/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-03-methods/</guid><description>&lt;!-- Methods --&gt;
 &lt;div class="note-card "&gt;
 &lt;div class="item"&gt;
 &lt;h5 class="note-title"&gt;&lt;span&gt;Methods&lt;/span&gt;&lt;/h5&gt;
@@ -491,7 +529,38 @@ Core &amp;ndash;&amp;gt;&lt;/p&gt;</description></item><item><title>Introduction
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="card"&gt;
-&lt;div class="card-body"&gt;&lt;p&gt;&lt;strong&gt;Optional parameters:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Flow Control</title><link>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-04-flow-control/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-04-flow-control/</guid><description>&lt;!-- Condition --&gt;
+&lt;div class="card-body"&gt;&lt;p&gt;&lt;strong&gt;Optional parameters:&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-csharp" data-lang="csharp"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;CountTo();
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;void&lt;/span&gt; CountTo(&lt;span style="color:#66d9ef"&gt;int&lt;/span&gt; max = &lt;span style="color:#ae81ff"&gt;10&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;for&lt;/span&gt; (&lt;span style="color:#66d9ef"&gt;int&lt;/span&gt; i = &lt;span style="color:#ae81ff"&gt;0&lt;/span&gt;; i &amp;lt; max; i++)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Console.Write(&lt;span style="color:#e6db74"&gt;$&amp;#34;{i}, &amp;#34;&lt;/span&gt;); &lt;span style="color:#75715e"&gt;// 0, 1, 2, 3, 4, 5, 6, 7, 8, 9&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; }
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="card"&gt;
+&lt;div class="card-body"&gt;&lt;p&gt;&lt;strong&gt;Returning values:&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-csharp" data-lang="csharp"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;int&lt;/span&gt; sum = SumTo(&lt;span style="color:#ae81ff"&gt;5&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Console.Write(&lt;span style="color:#e6db74"&gt;$&amp;#34;sum: {sum}&amp;#34;&lt;/span&gt;); &lt;span style="color:#75715e"&gt;// sum: 15&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;int&lt;/span&gt; SumTo(&lt;span style="color:#66d9ef"&gt;int&lt;/span&gt; max)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;int&lt;/span&gt; result = &lt;span style="color:#ae81ff"&gt;0&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;for&lt;/span&gt; (&lt;span style="color:#66d9ef"&gt;int&lt;/span&gt; i = &lt;span style="color:#ae81ff"&gt;1&lt;/span&gt;; i &amp;lt;= max; i++)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; result += i;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; }
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;return&lt;/span&gt; result;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item><item><title>Flow Control</title><link>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-04-flow-control/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-04-flow-control/</guid><description>&lt;!-- Condition --&gt;
 &lt;div class="note-card "&gt;
 &lt;div class="item"&gt;
 &lt;h5 class="note-title"&gt;&lt;span&gt;Condition&lt;/span&gt;&lt;/h5&gt;
@@ -563,7 +632,58 @@ Core &amp;ndash;&amp;gt;&lt;/p&gt;</description></item><item><title>Introduction
 &lt;div class="item"&gt;
 &lt;h5 class="note-title"&gt;&lt;span&gt;Loop&lt;/span&gt;&lt;/h5&gt;
 &lt;div class="card"&gt;
-&lt;div class="card-body"&gt;&lt;p&gt;&lt;strong&gt;Foreach&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Data Type Conversion</title><link>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-05-convert-data-types/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-05-convert-data-types/</guid><description>&lt;!-- Casting type to convert --&gt;
+&lt;div class="card-body"&gt;&lt;p&gt;&lt;strong&gt;Foreach&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-csharp" data-lang="csharp"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;string&lt;/span&gt;[] names = { &lt;span style="color:#e6db74"&gt;&amp;#34;Rowena&amp;#34;&lt;/span&gt;, &lt;span style="color:#e6db74"&gt;&amp;#34;Robin&amp;#34;&lt;/span&gt;, &lt;span style="color:#e6db74"&gt;&amp;#34;Bao&amp;#34;&lt;/span&gt; };
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;foreach&lt;/span&gt; (&lt;span style="color:#66d9ef"&gt;string&lt;/span&gt; name &lt;span style="color:#66d9ef"&gt;in&lt;/span&gt; names)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Console.WriteLine(name); &lt;span style="color:#75715e"&gt;// &amp;#34;Rowena&amp;#34;, &amp;#34;Robin&amp;#34;, &amp;#34;Bao&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="card"&gt;
+&lt;div class="card-body"&gt;&lt;p&gt;&lt;strong&gt;For&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-csharp" data-lang="csharp"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;for&lt;/span&gt; (&lt;span style="color:#66d9ef"&gt;int&lt;/span&gt; i = &lt;span style="color:#ae81ff"&gt;0&lt;/span&gt;; i &amp;lt; &lt;span style="color:#ae81ff"&gt;10&lt;/span&gt;; i++)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;if&lt;/span&gt; (i &amp;gt; &lt;span style="color:#ae81ff"&gt;5&lt;/span&gt;) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;break&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; }
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Console.WriteLine(i); &lt;span style="color:#75715e"&gt;// 1, 2, 3, 4, 5&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="card"&gt;
+&lt;div class="card-body"&gt;&lt;p&gt;&lt;strong&gt;Do-While&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-csharp" data-lang="csharp"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Random random = &lt;span style="color:#66d9ef"&gt;new&lt;/span&gt; Random();
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;int&lt;/span&gt; current = &lt;span style="color:#ae81ff"&gt;0&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;do&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; current = random.Next(&lt;span style="color:#ae81ff"&gt;1&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;11&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;if&lt;/span&gt; (current &amp;gt;= &lt;span style="color:#ae81ff"&gt;8&lt;/span&gt;) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;continue&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; }
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Console.WriteLine(current);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;} &lt;span style="color:#66d9ef"&gt;while&lt;/span&gt; (current != &lt;span style="color:#ae81ff"&gt;7&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="card"&gt;
+&lt;div class="card-body"&gt;&lt;p&gt;&lt;strong&gt;While&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-csharp" data-lang="csharp"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Random random = &lt;span style="color:#66d9ef"&gt;new&lt;/span&gt; Random();
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;int&lt;/span&gt; current = random.Next(&lt;span style="color:#ae81ff"&gt;1&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;11&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;while&lt;/span&gt; (current &amp;gt;= &lt;span style="color:#ae81ff"&gt;3&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Console.WriteLine(current);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; current = random.Next(&lt;span style="color:#ae81ff"&gt;1&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;11&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Console.WriteLine(&lt;span style="color:#e6db74"&gt;$&amp;#34;Last number: {current}&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item><item><title>Data Type Conversion</title><link>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-05-convert-data-types/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-05-convert-data-types/</guid><description>&lt;!-- Casting type to convert --&gt;
 &lt;div class="note-card "&gt;
 &lt;div class="item"&gt;
 &lt;h5 class="note-title"&gt;&lt;span&gt;Casting&lt;/span&gt;&lt;/h5&gt;
@@ -628,7 +748,15 @@ Core &amp;ndash;&amp;gt;&lt;/p&gt;</description></item><item><title>Introduction
 &lt;div class="item"&gt;
 &lt;h5 class="note-title"&gt;&lt;span&gt;Convert&lt;/span&gt;&lt;/h5&gt;
 &lt;div class="card"&gt;
-&lt;div class="card-body"&gt;&lt;p&gt;Convert rounds the value.&lt;/p&gt;</description></item><item><title>Methods on Arrays</title><link>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-06-methods-on-arrays/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-06-methods-on-arrays/</guid><description>&lt;!-- Sorting an array --&gt;
+&lt;div class="card-body"&gt;&lt;p&gt;Convert rounds the value.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-csharp" data-lang="csharp"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;string&lt;/span&gt; value1 = &lt;span style="color:#e6db74"&gt;&amp;#34;5&amp;#34;&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;string&lt;/span&gt; value2 = &lt;span style="color:#e6db74"&gt;&amp;#34;7&amp;#34;&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;int&lt;/span&gt; result = Convert.ToInt32(value1) * Convert.ToInt32(value2);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Console.WriteLine(result); &lt;span style="color:#75715e"&gt;// 35&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item><item><title>Methods on Arrays</title><link>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-06-methods-on-arrays/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-06-methods-on-arrays/</guid><description>&lt;!-- Sorting an array --&gt;
 &lt;div class="note-card "&gt;
 &lt;div class="item"&gt;
 &lt;h5 class="note-title"&gt;&lt;span&gt;Sort&lt;/span&gt;&lt;/h5&gt;
@@ -984,7 +1112,42 @@ Core &amp;ndash;&amp;gt;&lt;/p&gt;</description></item><item><title>Introduction
 &lt;div class="item"&gt;
 &lt;h5 class="note-title"&gt;&lt;span&gt;Constructors and initialization&lt;/span&gt;&lt;/h5&gt;
 &lt;div class="card"&gt;
-&lt;div class="card-body"&gt;&lt;p&gt;&lt;strong&gt;Accept default values&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Abstract Classes</title><link>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-10-abstract/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-10-abstract/</guid><description>&lt;!-- Example 1 --&gt;
+&lt;div class="card-body"&gt;&lt;p&gt;&lt;strong&gt;Accept default values&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Every .NET type has a default value. Typically, that value is 0 for number types, and null for all reference types. You can rely on that default value when it&amp;rsquo;s reasonable in your app.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="card"&gt;
+&lt;div class="card-body"&gt;&lt;p&gt;&lt;strong&gt;Field initializers&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-csharp" data-lang="csharp"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;public&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;class&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;Container&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;private&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;int&lt;/span&gt; _capacity;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;public&lt;/span&gt; Container(&lt;span style="color:#66d9ef"&gt;int&lt;/span&gt; capacity) =&amp;gt; _capacity = capacity;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="card"&gt;
+&lt;div class="card-body"&gt;&lt;p&gt;&lt;strong&gt;Primary Constructor&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-csharp" data-lang="csharp"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;public&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;class&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;Container&lt;/span&gt;(&lt;span style="color:#66d9ef"&gt;int&lt;/span&gt; capacity)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;private&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;int&lt;/span&gt; _capacity = capacity;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="card"&gt;
+&lt;div class="card-body"&gt;&lt;p&gt;&lt;strong&gt;Object initializer&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-csharp" data-lang="csharp"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;public&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;class&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;Person&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;public&lt;/span&gt; required &lt;span style="color:#66d9ef"&gt;string&lt;/span&gt; LastName { &lt;span style="color:#66d9ef"&gt;get&lt;/span&gt;; &lt;span style="color:#66d9ef"&gt;set&lt;/span&gt;; }
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;public&lt;/span&gt; required &lt;span style="color:#66d9ef"&gt;string&lt;/span&gt; FirstName { &lt;span style="color:#66d9ef"&gt;get&lt;/span&gt;; &lt;span style="color:#66d9ef"&gt;set&lt;/span&gt;; }
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;var&lt;/span&gt; p1 = &lt;span style="color:#66d9ef"&gt;new&lt;/span&gt; Person(); &lt;span style="color:#75715e"&gt;// Error! Required properties not set&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;var&lt;/span&gt; p2 = &lt;span style="color:#66d9ef"&gt;new&lt;/span&gt; Person() { FirstName = &lt;span style="color:#e6db74"&gt;&amp;#34;Grace&amp;#34;&lt;/span&gt;, LastName = &lt;span style="color:#e6db74"&gt;&amp;#34;Hopper&amp;#34;&lt;/span&gt; };
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item><item><title>Abstract Classes</title><link>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-10-abstract/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-10-abstract/</guid><description>&lt;!-- Example 1 --&gt;
 &lt;div class="note-card "&gt;
 &lt;div class="item"&gt;
 &lt;h5 class="note-title"&gt;&lt;span&gt;Example 1&lt;/span&gt;&lt;/h5&gt;
@@ -1135,7 +1298,15 @@ Core &amp;ndash;&amp;gt;&lt;/p&gt;</description></item><item><title>Introduction
 &lt;div class="card"&gt;
 &lt;div class="card-body"&gt;&lt;p&gt;A record in C# is a class or struct that provides special syntax and behavior for working with data models. The record modifier instructs the compiler to synthesize members that are useful for types whose primary role is storing data. These members include an overload of ToString() and members that support value equality.&lt;/p&gt;
 &lt;h3 id="when-to-use"&gt;When to use&lt;/h3&gt;
-&lt;p&gt;Consider using a record in place of a class or struct in the following scenarios:&lt;/p&gt;</description></item><item><title>Interfaces</title><link>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-12-interfaces/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-12-interfaces/</guid><description>&lt;!-- Declaration --&gt;
+&lt;p&gt;Consider using a record in place of a class or struct in the following scenarios:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;You want to define a data model that depends on value equality.&lt;/li&gt;
+&lt;li&gt;You want to define a type for which objects are immutable.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item><item><title>Interfaces</title><link>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-12-interfaces/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-12-interfaces/</guid><description>&lt;!-- Declaration --&gt;
 &lt;div class="note-card "&gt;
 &lt;div class="item"&gt;
 &lt;h5 class="note-title"&gt;&lt;span&gt;Declaration&lt;/span&gt;&lt;/h5&gt;
@@ -1333,7 +1504,98 @@ Core &amp;ndash;&amp;gt;&lt;/p&gt;</description></item><item><title>Introduction
 &lt;h5 class="note-title"&gt;&lt;span&gt;Encapsulation&lt;/span&gt;&lt;/h5&gt;
 &lt;div class="card"&gt;
 &lt;div class="card-body"&gt;&lt;h3 id="definition"&gt;Definition&lt;/h3&gt;
-&lt;p&gt;Encapsulation is sometimes referred to as the first pillar or principle of object-oriented programming. A class or struct can specify how accessible each of its members is to code outside of the class or struct. Members not intended for consumers outside of the class or assembly are hidden to limit the potential for coding errors or malicious exploits.&lt;/p&gt;</description></item><item><title>Structured Programming</title><link>https://fmaceda.github.io/blog/notes/02-software-design-and-architecture/x-02-programming-paradigms/x-01-structured-programming/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fmaceda.github.io/blog/notes/02-software-design-and-architecture/x-02-programming-paradigms/x-01-structured-programming/</guid><description>&lt;div class="note-card "&gt;
+&lt;p&gt;Encapsulation is sometimes referred to as the first pillar or principle of object-oriented programming. A class or struct can specify how accessible each of its members is to code outside of the class or struct. Members not intended for consumers outside of the class or assembly are hidden to limit the potential for coding errors or malicious exploits.&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="card"&gt;
+&lt;div class="card-body"&gt;&lt;h3 id="members"&gt;Members&lt;/h3&gt;
+&lt;p&gt;The following list includes all the various kinds of members that can be declared in a class, struct, or record.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Fields&lt;/li&gt;
+&lt;li&gt;Constants&lt;/li&gt;
+&lt;li&gt;Properties&lt;/li&gt;
+&lt;li&gt;Methods&lt;/li&gt;
+&lt;li&gt;Constructors&lt;/li&gt;
+&lt;li&gt;Events&lt;/li&gt;
+&lt;li&gt;Finalizers&lt;/li&gt;
+&lt;li&gt;Indexers&lt;/li&gt;
+&lt;li&gt;Operators&lt;/li&gt;
+&lt;li&gt;Nested Types&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="card"&gt;
+&lt;div class="card-body"&gt;&lt;h3 id="accessibility"&gt;Accessibility&lt;/h3&gt;
+&lt;p&gt;Some methods and properties are meant to be called or accessed from code outside a class or struct, known as client code. Other methods and properties might be only for use in the class or struct itself. It&amp;rsquo;s important to limit the accessibility of your code so that only the intended client code can reach it. You specify how accessible your types and their members are to client code by using the following access modifiers:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;public&lt;/code&gt;: Access is not restricted.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;protected&lt;/code&gt;: Access is limited to the containing class or types derived from the containing class.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;internal&lt;/code&gt;: Access is limited to the current assembly.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;protected internal&lt;/code&gt;: Access is limited to the current assembly or types derived from the containing class.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;private&lt;/code&gt;: Access is limited to the containing type.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;private protected&lt;/code&gt;: Access is limited to the containing class or types derived from the containing class within the current assembly.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-csharp" data-lang="csharp"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;// Assembly1.cs &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;public&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;class&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;OtherClass&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;internal&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;static&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;int&lt;/span&gt; intM = &lt;span style="color:#ae81ff"&gt;0&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;// Assembly2.cs &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;using&lt;/span&gt; System;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;class&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;ParentClass&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;public&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;int&lt;/span&gt; a = &lt;span style="color:#ae81ff"&gt;10&lt;/span&gt;; &lt;span style="color:#75715e"&gt;// No access restrictions.&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;protected&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;int&lt;/span&gt; b = &lt;span style="color:#ae81ff"&gt;20&lt;/span&gt;; &lt;span style="color:#75715e"&gt;// Access from the ParentClass and any other class that inherits this one.&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;internal&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;int&lt;/span&gt; c = &lt;span style="color:#ae81ff"&gt;30&lt;/span&gt;; &lt;span style="color:#75715e"&gt;// Access only on the same assembly.&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;private&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;int&lt;/span&gt; d = &lt;span style="color:#ae81ff"&gt;40&lt;/span&gt;; &lt;span style="color:#75715e"&gt;// Access only on the same class.&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;public&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;int&lt;/span&gt; GetB()
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;return&lt;/span&gt; b; &lt;span style="color:#75715e"&gt;// OK&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; }
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;public&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;int&lt;/span&gt; GetD()
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;return&lt;/span&gt; d; &lt;span style="color:#75715e"&gt;// OK&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; }
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;class&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;ChildClass&lt;/span&gt; : ParentClass
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;public&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;void&lt;/span&gt; ChangeB(&lt;span style="color:#66d9ef"&gt;int&lt;/span&gt; newB)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; b = newB; &lt;span style="color:#75715e"&gt;// OK&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; }
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;class&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;Program&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;static&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;void&lt;/span&gt; Main()
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;var&lt;/span&gt; parent = &lt;span style="color:#66d9ef"&gt;new&lt;/span&gt; ParentClass();
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;var&lt;/span&gt; child = &lt;span style="color:#66d9ef"&gt;new&lt;/span&gt; ChildClass();
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#75715e"&gt;// var other = new OtherClass(); OK&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#75715e"&gt;// public&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; parent.a = &lt;span style="color:#ae81ff"&gt;20&lt;/span&gt;; &lt;span style="color:#75715e"&gt;// OK&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#75715e"&gt;// protected&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#75715e"&gt;// parent.b ERROR&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#75715e"&gt;// child.b ERROR&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#75715e"&gt;// internal&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; parent.c = &lt;span style="color:#ae81ff"&gt;20&lt;/span&gt;; &lt;span style="color:#75715e"&gt;// OK&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; child.c = &lt;span style="color:#ae81ff"&gt;20&lt;/span&gt;; &lt;span style="color:#75715e"&gt;// OK&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#75715e"&gt;// other.intM = 20; ERROR&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#75715e"&gt;// private&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#75715e"&gt;// parent.d ERROR&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#75715e"&gt;// child.d ERROR&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; }
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item><item><title>Structured Programming</title><link>https://fmaceda.github.io/blog/notes/02-software-design-and-architecture/x-02-programming-paradigms/x-01-structured-programming/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fmaceda.github.io/blog/notes/02-software-design-and-architecture/x-02-programming-paradigms/x-01-structured-programming/</guid><description>&lt;div class="note-card "&gt;
 &lt;div class="item"&gt;
 &lt;h5 class="note-title"&gt;&lt;span&gt;Content&lt;/span&gt;&lt;/h5&gt;
 &lt;div class="card"&gt;
@@ -1349,7 +1611,14 @@ Core &amp;ndash;&amp;gt;&lt;/p&gt;</description></item><item><title>Introduction
 &lt;h5 class="note-title"&gt;&lt;span&gt;Overview&lt;/span&gt;&lt;/h5&gt;
 &lt;div class="card"&gt;
 &lt;div class="card-body"&gt;&lt;p&gt;The first paradigm to be adopted (but not the first to be invented) was structured programming, which was discovered by &lt;strong&gt;Edsger Wybe Dijkstra&lt;/strong&gt; in 1968. Dijkstra showed that the use of unrestrained jumps (goto statements) is harmful to program structure. As we&amp;rsquo;ll see in the chapters that follow, he replaced those jumps with the more familiar if/then/else and do/while/until constructs.&lt;/p&gt;
-&lt;p&gt;We can summarize the structured programming paradigm as follows:&lt;/p&gt;</description></item><item><title>Arrays</title><link>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-02-advanced/x-02-arrays/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-02-advanced/x-02-arrays/</guid><description>&lt;div class="note-card "&gt;
+&lt;p&gt;We can summarize the structured programming paradigm as follows:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Structured programming imposes discipline on direct transfer of control.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item><item><title>Arrays</title><link>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-02-advanced/x-02-arrays/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-02-advanced/x-02-arrays/</guid><description>&lt;div class="note-card "&gt;
 &lt;div class="item"&gt;
 &lt;h5 class="note-title"&gt;&lt;span&gt;Using an Array&lt;/span&gt;&lt;/h5&gt;
 &lt;div class="card"&gt;
@@ -1438,7 +1707,15 @@ Core &amp;ndash;&amp;gt;&lt;/p&gt;</description></item><item><title>Introduction
 &lt;div class="item"&gt;
 &lt;h5 class="note-title"&gt;&lt;span&gt;Overview&lt;/span&gt;&lt;/h5&gt;
 &lt;div class="card"&gt;
-&lt;div class="card-body"&gt;&lt;p&gt;The second paradigm to be adopted was actually discovered two years earlier, in 1966, by &lt;strong&gt;Ole Johan Dahl&lt;/strong&gt; and &lt;strong&gt;Kristen Nygaard&lt;/strong&gt;. These two programmers noticed that the function call stack frame in the ALGOL language could be moved to a heap, thereby allowing local variables declared by a function to exist long after the function returned. The function became a constructor for a class, the local variables became instance variables, and the nested functions became methods. This led inevitably to the discovery of polymorphism through the disciplined use of function pointers.&lt;/p&gt;</description></item><item><title>SOLID Principles</title><link>https://fmaceda.github.io/blog/notes/02-software-design-and-architecture/x-03-oop/x-02-solid/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fmaceda.github.io/blog/notes/02-software-design-and-architecture/x-03-oop/x-02-solid/</guid><description>&lt;!-- SOLID definition --&gt;
+&lt;div class="card-body"&gt;&lt;p&gt;The second paradigm to be adopted was actually discovered two years earlier, in 1966, by &lt;strong&gt;Ole Johan Dahl&lt;/strong&gt; and &lt;strong&gt;Kristen Nygaard&lt;/strong&gt;. These two programmers noticed that the function call stack frame in the ALGOL language could be moved to a heap, thereby allowing local variables declared by a function to exist long after the function returned. The function became a constructor for a class, the local variables became instance variables, and the nested functions became methods. This led inevitably to the discovery of polymorphism through the disciplined use of function pointers.&lt;/p&gt;
+&lt;p&gt;We can summarize the object-oriented programming paradigm as follows:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Object-oriented programming imposes discipline on indirect transfer of control.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item><item><title>SOLID Principles</title><link>https://fmaceda.github.io/blog/notes/02-software-design-and-architecture/x-03-oop/x-02-solid/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fmaceda.github.io/blog/notes/02-software-design-and-architecture/x-03-oop/x-02-solid/</guid><description>&lt;!-- SOLID definition --&gt;
 &lt;div class="note-card "&gt;
 &lt;div class="item"&gt;
 &lt;h5 class="note-title"&gt;&lt;span&gt;SOLID&lt;/span&gt;&lt;/h5&gt;
@@ -1453,7 +1730,60 @@ Core &amp;ndash;&amp;gt;&lt;/p&gt;</description></item><item><title>Introduction
 &lt;li&gt;&lt;strong&gt;I&lt;/strong&gt;nterface Segregation Principle (ISP)&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;D&lt;/strong&gt;ependency Inversion Principle (DIP)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;I&amp;rsquo;ll be using the same example from &lt;a href="https://dev.to/moh_moh701/c-clean-code-solid-principles-51ed" target="_blank" rel="noopener"&gt;C# Clean Code: SOLID Principles – Dev.to&lt;/a&gt;, so as the initial code we have the following:&lt;/p&gt;</description></item><item><title>Functional Programming</title><link>https://fmaceda.github.io/blog/notes/02-software-design-and-architecture/x-02-programming-paradigms/x-03-functional-programming/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fmaceda.github.io/blog/notes/02-software-design-and-architecture/x-02-programming-paradigms/x-03-functional-programming/</guid><description>&lt;div class="note-card "&gt;
+&lt;p&gt;I&amp;rsquo;ll be using the same example from &lt;a href="https://dev.to/moh_moh701/c-clean-code-solid-principles-51ed" target="_blank" rel="noopener"&gt;C# Clean Code: SOLID Principles – Dev.to&lt;/a&gt;, so as the initial code we have the following:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-csharp" data-lang="csharp"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;public&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;class&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;OrderItem&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;public&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;string&lt;/span&gt; Name { &lt;span style="color:#66d9ef"&gt;get&lt;/span&gt;; &lt;span style="color:#66d9ef"&gt;set&lt;/span&gt;; }
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;public&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;decimal&lt;/span&gt; Price { &lt;span style="color:#66d9ef"&gt;get&lt;/span&gt;; &lt;span style="color:#66d9ef"&gt;set&lt;/span&gt;; }
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;public&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;int&lt;/span&gt; Quantity { &lt;span style="color:#66d9ef"&gt;get&lt;/span&gt;; &lt;span style="color:#66d9ef"&gt;set&lt;/span&gt;; }
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;public&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;class&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;Order&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;public&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;int&lt;/span&gt; Id { &lt;span style="color:#66d9ef"&gt;get&lt;/span&gt;; &lt;span style="color:#66d9ef"&gt;set&lt;/span&gt;; }
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;public&lt;/span&gt; List&amp;lt;OrderItem&amp;gt; Items { &lt;span style="color:#66d9ef"&gt;get&lt;/span&gt;; &lt;span style="color:#66d9ef"&gt;set&lt;/span&gt;; }
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;public&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;string&lt;/span&gt; CustomerType { &lt;span style="color:#66d9ef"&gt;get&lt;/span&gt;; &lt;span style="color:#66d9ef"&gt;set&lt;/span&gt;; } &lt;span style="color:#75715e"&gt;// &amp;#39;Regular&amp;#39;, &amp;#39;Premium&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;public&lt;/span&gt; Order()
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Items = &lt;span style="color:#66d9ef"&gt;new&lt;/span&gt; List&amp;lt;OrderItem&amp;gt;();
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; }
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#75715e"&gt;// Calculate order total&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;public&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;decimal&lt;/span&gt; GetTotal()
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;decimal&lt;/span&gt; total = &lt;span style="color:#ae81ff"&gt;0&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;foreach&lt;/span&gt; (&lt;span style="color:#66d9ef"&gt;var&lt;/span&gt; item &lt;span style="color:#66d9ef"&gt;in&lt;/span&gt; Items)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; total += item.Price * item.Quantity;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; }
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#75715e"&gt;// Apply discount based on customer type&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;if&lt;/span&gt; (CustomerType == &lt;span style="color:#e6db74"&gt;&amp;#34;Premium&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; total *= &lt;span style="color:#ae81ff"&gt;0.9&lt;/span&gt;m; &lt;span style="color:#75715e"&gt;// 10% discount for premium customers&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; }
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;return&lt;/span&gt; total;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; }
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#75715e"&gt;// Print order receipt&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;public&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;void&lt;/span&gt; PrintReceipt()
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Console.WriteLine(&lt;span style="color:#e6db74"&gt;$&amp;#34;Order ID: {Id}&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;foreach&lt;/span&gt; (&lt;span style="color:#66d9ef"&gt;var&lt;/span&gt; item &lt;span style="color:#66d9ef"&gt;in&lt;/span&gt; Items)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Console.WriteLine(&lt;span style="color:#e6db74"&gt;$&amp;#34;{item.Name} - {item.Quantity} x {item.Price} = {item.Quantity * item.Price}&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; }
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Console.WriteLine(&lt;span style="color:#e6db74"&gt;$&amp;#34;Total: {GetTotal()}&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; }
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item><item><title>Functional Programming</title><link>https://fmaceda.github.io/blog/notes/02-software-design-and-architecture/x-02-programming-paradigms/x-03-functional-programming/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fmaceda.github.io/blog/notes/02-software-design-and-architecture/x-02-programming-paradigms/x-03-functional-programming/</guid><description>&lt;div class="note-card "&gt;
 &lt;div class="item"&gt;
 &lt;h5 class="note-title"&gt;&lt;span&gt;Content&lt;/span&gt;&lt;/h5&gt;
 &lt;div class="card"&gt;
@@ -1469,7 +1799,15 @@ Core &amp;ndash;&amp;gt;&lt;/p&gt;</description></item><item><title>Introduction
 &lt;div class="item"&gt;
 &lt;h5 class="note-title"&gt;&lt;span&gt;Overview&lt;/span&gt;&lt;/h5&gt;
 &lt;div class="card"&gt;
-&lt;div class="card-body"&gt;&lt;p&gt;The third paradigm, which has only recently begun to be adopted, was the first to be invented. Indeed, its invention predates computer programming itself. Functional programming is the direct result of the work of &lt;strong&gt;Alonzo Church&lt;/strong&gt;, who in 1936 invented l-calculus while pursuing the same mathematical problem that was motivating Alan Turing at the same time. His l-calculus is the foundation of the LISP language, invented in 1958 by John McCarthy. A foundational notion of l-calculus is immutability—that is, the notion that the values of symbols do not change. This effectively means that a functional language has no assignment statement. Most functional languages do, in fact, have some means to alter the value of a variable, but only under very strict discipline.&lt;/p&gt;</description></item><item><title>Language Integrated Query (LINQ)</title><link>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-02-advanced/x-03-linq/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-02-advanced/x-03-linq/</guid><description>&lt;div class="note-card "&gt;
+&lt;div class="card-body"&gt;&lt;p&gt;The third paradigm, which has only recently begun to be adopted, was the first to be invented. Indeed, its invention predates computer programming itself. Functional programming is the direct result of the work of &lt;strong&gt;Alonzo Church&lt;/strong&gt;, who in 1936 invented l-calculus while pursuing the same mathematical problem that was motivating Alan Turing at the same time. His l-calculus is the foundation of the LISP language, invented in 1958 by John McCarthy. A foundational notion of l-calculus is immutability—that is, the notion that the values of symbols do not change. This effectively means that a functional language has no assignment statement. Most functional languages do, in fact, have some means to alter the value of a variable, but only under very strict discipline.&lt;/p&gt;
+&lt;p&gt;We can summarize the functional programming paradigm as follows:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Functional programming imposes discipline upon assignment.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item><item><title>Language Integrated Query (LINQ)</title><link>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-02-advanced/x-03-linq/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-02-advanced/x-03-linq/</guid><description>&lt;div class="note-card "&gt;
 &lt;div class="item"&gt;
 &lt;h5 class="note-title"&gt;&lt;span&gt;Using LINQ&lt;/span&gt;&lt;/h5&gt;
 &lt;div class="card"&gt;
@@ -1702,7 +2040,11 @@ Core &amp;ndash;&amp;gt;&lt;/p&gt;</description></item><item><title>Introduction
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;// Invoke the delegate:&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;int&lt;/span&gt; result = comparator(left, right);
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br/&gt;
-&lt;p&gt;The compiler also generates add and remove handlers for this new type so that clients of this class can add and remove methods from an instance&amp;rsquo;s invocation list. The compiler will enforce that the signature of the method being added or removed matches the signature used when declaring the method.&lt;/p&gt;</description></item><item><title>Error Handling</title><link>https://fmaceda.github.io/blog/notes/02-software-design-and-architecture/x-03-oop/99-error-handling/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fmaceda.github.io/blog/notes/02-software-design-and-architecture/x-03-oop/99-error-handling/</guid><description>&lt;!-- Error Handling --&gt;
+&lt;p&gt;The compiler also generates add and remove handlers for this new type so that clients of this class can add and remove methods from an instance&amp;rsquo;s invocation list. The compiler will enforce that the signature of the method being added or removed matches the signature used when declaring the method.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item><item><title>Error Handling</title><link>https://fmaceda.github.io/blog/notes/02-software-design-and-architecture/x-03-oop/99-error-handling/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fmaceda.github.io/blog/notes/02-software-design-and-architecture/x-03-oop/99-error-handling/</guid><description>&lt;!-- Error Handling --&gt;
 &lt;div class="note-card "&gt;
 &lt;div class="item"&gt;
 &lt;h5 class="note-title"&gt;&lt;span&gt;Error Handling&lt;/span&gt;&lt;/h5&gt;
@@ -1783,7 +2125,99 @@ Core &amp;ndash;&amp;gt;&lt;/p&gt;</description></item><item><title>Introduction
 &lt;div class="item"&gt;
 &lt;h5 class="note-title"&gt;&lt;span&gt;Use Intention-Revealing Names&lt;/span&gt;&lt;/h5&gt;
 &lt;div class="card"&gt;
-&lt;div class="card-body"&gt;&lt;p&gt;The name of a variable, function, or class, should answer all the big questions. It should tell you why it exists, what it does, and how it is used. If a name requires a comment, then the name does not reveal its intent.&lt;/p&gt;</description></item><item><title>Functions</title><link>https://fmaceda.github.io/blog/notes/02-software-design-and-architecture/x-01-clean-code/x-02-functions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fmaceda.github.io/blog/notes/02-software-design-and-architecture/x-01-clean-code/x-02-functions/</guid><description>&lt;div class="note-card "&gt;
+&lt;div class="card-body"&gt;&lt;p&gt;The name of a variable, function, or class, should answer all the big questions. It should tell you why it exists, what it does, and how it is used. If a name requires a comment, then the name does not reveal its intent.&lt;/p&gt;
+&lt;h4 id="example-1"&gt;Example 1&lt;/h4&gt;
+&lt;p&gt;Let&amp;rsquo;s say we want to define a variable to store elapsed time in days.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-csharp" data-lang="csharp"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;// No question is answered. &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;int&lt;/span&gt; d; &lt;span style="color:#75715e"&gt;// elapsed time in days&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;// The name has now more sense.&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;int&lt;/span&gt; elapsedTimeInDays;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;int&lt;/span&gt; daysSinceCreation;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;int&lt;/span&gt; daysSinceModification;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;int&lt;/span&gt; fileAgeInDays;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id="example-2"&gt;Example 2&lt;/h4&gt;
+&lt;p&gt;Let&amp;rsquo;s try to analyze what&amp;rsquo;s the purpose of this code:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-csharp" data-lang="csharp"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;List&amp;lt;&lt;span style="color:#66d9ef"&gt;int&lt;/span&gt;[]&amp;gt; theList = &lt;span style="color:#66d9ef"&gt;new&lt;/span&gt;();
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;public&lt;/span&gt; List&amp;lt;&lt;span style="color:#66d9ef"&gt;int&lt;/span&gt;[]&amp;gt; GetThem() {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; List&amp;lt;&lt;span style="color:#66d9ef"&gt;int&lt;/span&gt;[]&amp;gt; list1 = &lt;span style="color:#66d9ef"&gt;new&lt;/span&gt;();
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;foreach&lt;/span&gt; (&lt;span style="color:#66d9ef"&gt;int&lt;/span&gt;[] x &lt;span style="color:#66d9ef"&gt;in&lt;/span&gt; theList)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;if&lt;/span&gt; (x[&lt;span style="color:#ae81ff"&gt;0&lt;/span&gt;] == &lt;span style="color:#ae81ff"&gt;4&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; list1.Add(x);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; }
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; }
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;return&lt;/span&gt; list1;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;There are some questions we need to answer, so we can understand the code:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;What kinds of things are in &lt;code&gt;theList&lt;/code&gt;?&lt;/li&gt;
+&lt;li&gt;What is the significance of the zeroth subscript of an item in &lt;code&gt;theList&lt;/code&gt;?&lt;/li&gt;
+&lt;li&gt;What is the significance of the value &lt;code&gt;4&lt;/code&gt;?&lt;/li&gt;
+&lt;li&gt;How would I use the list being returned?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Let&amp;rsquo;s say we have the following context:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;We&amp;rsquo;re working in a mine sweeper game.&lt;/li&gt;
+&lt;li&gt;We find that the board is a list of cells called &lt;code&gt;theList&lt;/code&gt;. Let&amp;rsquo;s rename that to &lt;code&gt;gameBoard&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Each cell on the board is represented by a simple array.&lt;/li&gt;
+&lt;li&gt;We further find that the zeroth subscript is the location of a &lt;code&gt;status&lt;/code&gt; value and that a status value of &lt;code&gt;4&lt;/code&gt; means &lt;code&gt;flagged&lt;/code&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Just by giving these concepts names we can improve the code considerably:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-csharp" data-lang="csharp"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;List&amp;lt;&lt;span style="color:#66d9ef"&gt;int&lt;/span&gt;[]&amp;gt; gameBoard = &lt;span style="color:#66d9ef"&gt;new&lt;/span&gt;();
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;const&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;int&lt;/span&gt; StatusValue = &lt;span style="color:#ae81ff"&gt;0&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;const&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;int&lt;/span&gt; Flagged = &lt;span style="color:#ae81ff"&gt;4&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;public&lt;/span&gt; List&amp;lt;&lt;span style="color:#66d9ef"&gt;int&lt;/span&gt;[]&amp;gt; GetFlaggedCells() {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; List&amp;lt;&lt;span style="color:#66d9ef"&gt;int&lt;/span&gt;[]&amp;gt; flaggedCells = &lt;span style="color:#66d9ef"&gt;new&lt;/span&gt;();
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;foreach&lt;/span&gt; (&lt;span style="color:#66d9ef"&gt;int&lt;/span&gt;[] cell &lt;span style="color:#66d9ef"&gt;in&lt;/span&gt; gameBoard)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;if&lt;/span&gt; (cell[StatusValue] == Flagged)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; flaggedCells.Add(cell);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; }
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; }
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;return&lt;/span&gt; flaggedCells;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The simplicity of the code has not changed, but the code has become much more explicit.&lt;/p&gt;
+&lt;p&gt;There&amp;rsquo;s a chance to make it even clearer by creating a class for cells instead of using array of &lt;code&gt;int&lt;/code&gt;:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-csharp" data-lang="csharp"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;List&amp;lt;&lt;span style="color:#66d9ef"&gt;int&lt;/span&gt;[]&amp;gt; gameBoard = &lt;span style="color:#66d9ef"&gt;new&lt;/span&gt;();
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;public&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;class&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;Cell&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;private&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;int&lt;/span&gt; Status { &lt;span style="color:#66d9ef"&gt;get&lt;/span&gt;; &lt;span style="color:#66d9ef"&gt;set&lt;/span&gt;; }
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;public&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;bool&lt;/span&gt; IsFlagged()
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; ... &lt;span style="color:#75715e"&gt;// The logic to handle each status goes here.&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; }
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;public&lt;/span&gt; List&amp;lt;Cell&amp;gt; GetFlaggedCells() {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; List&amp;lt;Cell&amp;gt; flaggedCells = &lt;span style="color:#66d9ef"&gt;new&lt;/span&gt;();
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;foreach&lt;/span&gt; (Cell cell &lt;span style="color:#66d9ef"&gt;in&lt;/span&gt; gameBoard)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;if&lt;/span&gt; (cell.IsFlagged())
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; flaggedCells.Add(cell);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; }
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; }
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;return&lt;/span&gt; flaggedCells;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item><item><title>Functions</title><link>https://fmaceda.github.io/blog/notes/02-software-design-and-architecture/x-01-clean-code/x-02-functions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fmaceda.github.io/blog/notes/02-software-design-and-architecture/x-01-clean-code/x-02-functions/</guid><description>&lt;div class="note-card "&gt;
 &lt;div class="item"&gt;
 &lt;h5 class="note-title"&gt;&lt;span&gt;Content&lt;/span&gt;&lt;/h5&gt;
 &lt;div class="card"&gt;
@@ -1954,7 +2388,18 @@ Core &amp;ndash;&amp;gt;&lt;/p&gt;</description></item><item><title>Introduction
 &lt;div class="card"&gt;
 &lt;div class="card-body"&gt;&lt;p&gt;Truth can only be found in one place: the code. Only the code can truly tell you what it does. It is the only source of truly accurate information. Therefore, though comments are sometimes necessary, we will expend significant energy to minimize them.&lt;/p&gt;
 &lt;p&gt;One of the more common motivations for writing comments is bad code.&lt;/p&gt;
-&lt;p&gt;Clear and expressive code with few comments is far superior to cluttered and complex code with lots of comments.&lt;/p&gt;</description></item><item><title>Formatting</title><link>https://fmaceda.github.io/blog/notes/02-software-design-and-architecture/x-01-clean-code/x-04-formatting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fmaceda.github.io/blog/notes/02-software-design-and-architecture/x-01-clean-code/x-04-formatting/</guid><description>&lt;div class="note-card "&gt;
+&lt;p&gt;Clear and expressive code with few comments is far superior to cluttered and complex code with lots of comments.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-csharp" data-lang="csharp"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;// Using comments to explain the code:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;// Check to see if the employee is eligible for full benefits&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;if&lt;/span&gt; ((employee.flags &amp;amp; HOURLY_FLAG) &amp;amp;&amp;amp; (employee.age &amp;gt; &lt;span style="color:#ae81ff"&gt;65&lt;/span&gt;)) { ... }
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;// Use the code to explain the behavior:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;if&lt;/span&gt; (employee.isEligibleForFullBenefits()) { ... }
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item><item><title>Formatting</title><link>https://fmaceda.github.io/blog/notes/02-software-design-and-architecture/x-01-clean-code/x-04-formatting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fmaceda.github.io/blog/notes/02-software-design-and-architecture/x-01-clean-code/x-04-formatting/</guid><description>&lt;div class="note-card "&gt;
 &lt;div class="item"&gt;
 &lt;h5 class="note-title"&gt;&lt;span&gt;Content&lt;/span&gt;&lt;/h5&gt;
 &lt;div class="card"&gt;
@@ -1982,7 +2427,35 @@ Core &amp;ndash;&amp;gt;&lt;/p&gt;</description></item><item><title>Introduction
 &lt;h5 class="note-title"&gt;&lt;span&gt;Vertical Formatting&lt;/span&gt;&lt;/h5&gt;
 &lt;div class="card"&gt;
 &lt;div class="card-body"&gt;&lt;p&gt;According to Robert C. Martin example, files long preferred to be 200 lines with an upper limit of 500 lines long.&lt;/p&gt;
-&lt;p&gt;Although this should not be a hard and fast rule, it should be considered very desirable. Small files are usually easier to understand than large files are.&lt;/p&gt;</description></item><item><title>Objects and Data Structure</title><link>https://fmaceda.github.io/blog/notes/02-software-design-and-architecture/x-01-clean-code/x-05-objects-and-data-structure/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fmaceda.github.io/blog/notes/02-software-design-and-architecture/x-01-clean-code/x-05-objects-and-data-structure/</guid><description>&lt;div class="note-card "&gt;
+&lt;p&gt;Although this should not be a hard and fast rule, it should be considered very desirable. Small files are usually easier to understand than large files are.&lt;/p&gt;
+&lt;h4 id="the-newspaper-metaphor"&gt;The Newspaper Metaphor&lt;/h4&gt;
+&lt;p&gt;Think of a well-written newspaper article. You read it vertically. At the top you expect a headline that will tell you what the story is about and allows you to decide whether it is something you want to read. The first paragraph gives you a synopsis of the whole story, hiding all the details while giving you the broad-brush concepts. As you continue downward, the details increase until you have all the dates, names, quotes, claims, and other minutia.&lt;/p&gt;
+&lt;p&gt;Having this example put on code formatting, we can think the following:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;File name should be simple but explanatory. The name, by itself, should be sufficient to tell us whether we are in the
+right module or not.&lt;/li&gt;
+&lt;li&gt;The topmost parts of the source file should provide the high-level concepts and algorithms.&lt;/li&gt;
+&lt;li&gt;Detail should increase as we move downward, until at the end we find the lowest level functions and details in the source file.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="vertical-openness-between-concepts"&gt;Vertical Openness Between Concepts&lt;/h4&gt;
+&lt;p&gt;Nearly all code is read left to right and top to bottom. Each line represents an expression or a clause, and each group of lines represents a complete thought. Those thoughts should be separated from each other with blank lines.&lt;/p&gt;
+&lt;h4 id="vertical-density"&gt;Vertical Density&lt;/h4&gt;
+&lt;p&gt;If openness separates concepts, then vertical density implies close association. So lines of code that are tightly related should appear vertically dense. For example, in a class, each property will follow the previous one, then we place a blank line to separate properties from methods.&lt;/p&gt;
+&lt;h4 id="vertical-distance"&gt;Vertical Distance&lt;/h4&gt;
+&lt;p&gt;Concepts that are closely related should be kept vertically close to each other.
+Clearly this rule doesn&amp;rsquo;t work for concepts that belong in separate files. But then closely related concepts should not be separated into different files unless you have a very good reason. Indeed, this is one of the reasons that protected variables should be avoided.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Variable Declarations:&lt;/strong&gt; Variables should be declared as close to their usage as possible.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Instance variables:&lt;/strong&gt; They should be declared at the top of the class. This should not increase the vertical distance of these variables.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dependent Functions:&lt;/strong&gt; If one function calls another, they should be vertically close, and the caller should be above the callee, if at all possible. Constants should be kept at an appropriate level; therefore, we pass them from the place where it makes sense to know it to the low-level function where it is actually used.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Conceptual Affinity:&lt;/strong&gt; The stronger the affinity the less vertical distance there should be between them. This affinity could be direct dependence &amp;ldquo;One function calling another, or A group of functions perform similar operation&amp;rdquo;, or it could be conceptual affinity &amp;ldquo;Share a common naming scheme or Perform variation of the same basic task&amp;rdquo;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="vertical-ordering"&gt;Vertical Ordering&lt;/h4&gt;
+&lt;p&gt;In general we want function call dependencies to point in the downward direction. That is, a function that is called should be below a function that does the calling. This creates a nice flow down the source code module from high level to low level.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item><item><title>Objects and Data Structure</title><link>https://fmaceda.github.io/blog/notes/02-software-design-and-architecture/x-01-clean-code/x-05-objects-and-data-structure/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fmaceda.github.io/blog/notes/02-software-design-and-architecture/x-01-clean-code/x-05-objects-and-data-structure/</guid><description>&lt;div class="note-card "&gt;
 &lt;div class="item"&gt;
 &lt;h5 class="note-title"&gt;&lt;span&gt;Content&lt;/span&gt;&lt;/h5&gt;
 &lt;div class="card"&gt;
@@ -2092,7 +2565,51 @@ Core &amp;ndash;&amp;gt;&lt;/p&gt;</description></item><item><title>Introduction
 &lt;div class="item"&gt;
 &lt;h5 class="note-title"&gt;&lt;span&gt;The Law of Demeter&lt;/span&gt;&lt;/h5&gt;
 &lt;div class="card"&gt;
-&lt;div class="card-body"&gt;&lt;p&gt;There is a well-known heuristic called the Law of Demeter that says a module should not know about the innards of the objects it manipulates.&lt;/p&gt;</description></item><item><title>Search Results</title><link>https://fmaceda.github.io/blog/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fmaceda.github.io/blog/search/</guid><description>&lt;p&gt;This file exists solely to respond to /search URL with the related &lt;code&gt;search&lt;/code&gt; layout template.&lt;/p&gt;
+&lt;div class="card-body"&gt;&lt;p&gt;There is a well-known heuristic called the Law of Demeter that says a module should not know about the innards of the objects it manipulates.&lt;/p&gt;
+&lt;p&gt;More precisely, the Law of Demeter says that a method f of a class C should only call the methods of these:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;C (Same class)&lt;/li&gt;
+&lt;li&gt;An object created by f (Inside the same method)&lt;/li&gt;
+&lt;li&gt;An object passed as an argument to f&lt;/li&gt;
+&lt;li&gt;An object held in an instance variable of C&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="violation-of-the-law-of-demeter"&gt;Violation of the Law of Demeter&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Train Wrecks:&lt;/strong&gt; In objects, avoid excessive chaining of method calls. It is usually best to split them up.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hybrids:&lt;/strong&gt; This confusion sometimes leads to unfortunate hybrid structures that are half object and half data structure. Such hybrids make it hard to add new functions but also make it hard to add new data structures.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hiding Structure:&lt;/strong&gt; Encapsulate implementation details.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="data-transfer-objects-dto"&gt;Data Transfer Objects (DTO)&lt;/h4&gt;
+&lt;p&gt;Data Transfer Objects (DTOs) are objects used to transfer data between different layers or components of a software system.
+DTOs are very useful structures, especially when communicating with databases or parsing messages from sockets, and so on. They often become the first in a series of translation stages that convert raw data in a database into objects in the application code.&lt;/p&gt;
+&lt;p&gt;Active Records are special format of DTOs as they have navigational methods like save and find.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-csharp" data-lang="csharp"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;public&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;class&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;Address&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;private&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;string&lt;/span&gt; Street { &lt;span style="color:#66d9ef"&gt;get&lt;/span&gt;; };
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;private&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;string&lt;/span&gt; StreetExtra { &lt;span style="color:#66d9ef"&gt;get&lt;/span&gt;; };
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;private&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;string&lt;/span&gt; City { &lt;span style="color:#66d9ef"&gt;get&lt;/span&gt;; };
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;private&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;string&lt;/span&gt; State { &lt;span style="color:#66d9ef"&gt;get&lt;/span&gt;; };
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;private&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;string&lt;/span&gt; Zip { &lt;span style="color:#66d9ef"&gt;get&lt;/span&gt;; };
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;public&lt;/span&gt; Address(
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;string&lt;/span&gt; street,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;string&lt;/span&gt; streetExtra,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;string&lt;/span&gt; city,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;string&lt;/span&gt; state,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;string&lt;/span&gt; zip)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Street = street;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; StreetExtra = streetExtra;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; City = city;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; State = state;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Zip = zip;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; }
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h5 id="active-record"&gt;Active Record&lt;/h5&gt;
+&lt;p&gt;Active Records are special forms of DTOs. They are data structures with public (or beanaccessed) variables; but they typically have navigational methods like save and find. Typically these Active Records are direct translations from database tables, or other data sources.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item><item><title>Search Results</title><link>https://fmaceda.github.io/blog/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fmaceda.github.io/blog/search/</guid><description>&lt;p&gt;This file exists solely to respond to /search URL with the related &lt;code&gt;search&lt;/code&gt; layout template.&lt;/p&gt;
 &lt;p&gt;No content shown here is rendered, all content is based in the template layouts/page/search.html&lt;/p&gt;
 &lt;p&gt;Setting a very low sitemap priority will tell search engines this is not important content.&lt;/p&gt;
 &lt;p&gt;This implementation uses Fusejs and mark.js&lt;/p&gt;

@@ -6,7 +6,11 @@
 &lt;div class="card-body"&gt;&lt;p&gt;&lt;strong&gt;What&amp;rsquo;s CSharp?&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;C# is a high-level, general-purpose programming language developed by Microsoft as part of the .NET framework. It&amp;rsquo;s an object-oriented language, meaning it uses objects to structure code and data, and is used to build a variety of applications. C# is known for its ease of learning, strong community support, and ability to produce highly performant code.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;.NET SDK Instalation&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;The easiest way to have the .NET SDK installed in your personal computer is to download &lt;a href="https://visualstudio.microsoft.com/" target="_blank" rel="noopener"&gt;Visual Studio&lt;/a&gt;. You can also use other IDE, but you will need to install the &lt;a href="https://dotnet.microsoft.com/en-us/download/visual-studio-sdks" target="_blank" rel="noopener"&gt;SDK&lt;/a&gt; manually.&lt;/p&gt;</description></item><item><title>Data Types</title><link>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-02-types/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-02-types/</guid><description>&lt;!-- Data types --&gt;
+&lt;p&gt;The easiest way to have the .NET SDK installed in your personal computer is to download &lt;a href="https://visualstudio.microsoft.com/" target="_blank" rel="noopener"&gt;Visual Studio&lt;/a&gt;. You can also use other IDE, but you will need to install the &lt;a href="https://dotnet.microsoft.com/en-us/download/visual-studio-sdks" target="_blank" rel="noopener"&gt;SDK&lt;/a&gt; manually.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item><item><title>Data Types</title><link>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-02-types/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-02-types/</guid><description>&lt;!-- Data types --&gt;
 &lt;div class="note-card "&gt;
 &lt;div class="item"&gt;
 &lt;h5 class="note-title"&gt;&lt;span&gt;Data Types&lt;/span&gt;&lt;/h5&gt;
@@ -44,7 +48,41 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Console.WriteLine(&lt;span style="color:#e6db74"&gt;&amp;#34;Product: &amp;#34;&lt;/span&gt; + product); &lt;span style="color:#75715e"&gt;// Product: 35&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Console.WriteLine(&lt;span style="color:#e6db74"&gt;&amp;#34;Quotient: &amp;#34;&lt;/span&gt; + quotient); &lt;span style="color:#75715e"&gt;// Quotient: 1&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Console.WriteLine(&lt;span style="color:#e6db74"&gt;$&amp;#34;Modulus: {7 % 5}&amp;#34;&lt;/span&gt;); &lt;span style="color:#75715e"&gt;// Modulus: 2&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Order of operations&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Methods</title><link>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-03-methods/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-03-methods/</guid><description>&lt;!-- Methods --&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Order of operations&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;In math, PEMDAS is an acronym that helps students remember the order of operations. The order is:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Parentheses (whatever is inside the parenthesis is performed first)&lt;/li&gt;
+&lt;li&gt;Exponents&lt;/li&gt;
+&lt;li&gt;Multiplication and Division (from left to right)&lt;/li&gt;
+&lt;li&gt;Addition and Subtraction (from left to right)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="card"&gt;
+&lt;div class="card-body"&gt;&lt;p&gt;&lt;strong&gt;Increment and decrement&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-csharp" data-lang="csharp"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;int&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;value&lt;/span&gt; = &lt;span style="color:#ae81ff"&gt;1&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;value&lt;/span&gt; = &lt;span style="color:#66d9ef"&gt;value&lt;/span&gt; + &lt;span style="color:#ae81ff"&gt;1&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Console.WriteLine(&lt;span style="color:#e6db74"&gt;&amp;#34;First increment: &amp;#34;&lt;/span&gt; + &lt;span style="color:#66d9ef"&gt;value&lt;/span&gt;); &lt;span style="color:#75715e"&gt;// First increment: 2&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;value&lt;/span&gt; += &lt;span style="color:#ae81ff"&gt;1&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Console.WriteLine(&lt;span style="color:#e6db74"&gt;&amp;#34;Second increment: &amp;#34;&lt;/span&gt; + &lt;span style="color:#66d9ef"&gt;value&lt;/span&gt;); &lt;span style="color:#75715e"&gt;// Second increment: 3&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;value&lt;/span&gt;++;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Console.WriteLine(&lt;span style="color:#e6db74"&gt;&amp;#34;Third increment: &amp;#34;&lt;/span&gt; + &lt;span style="color:#66d9ef"&gt;value&lt;/span&gt;); &lt;span style="color:#75715e"&gt;// Third increment: 4&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;value&lt;/span&gt; = &lt;span style="color:#66d9ef"&gt;value&lt;/span&gt; - &lt;span style="color:#ae81ff"&gt;1&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Console.WriteLine(&lt;span style="color:#e6db74"&gt;&amp;#34;First decrement: &amp;#34;&lt;/span&gt; + &lt;span style="color:#66d9ef"&gt;value&lt;/span&gt;); &lt;span style="color:#75715e"&gt;// First decrement: 3&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;value&lt;/span&gt; -= &lt;span style="color:#ae81ff"&gt;1&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Console.WriteLine(&lt;span style="color:#e6db74"&gt;&amp;#34;Second decrement: &amp;#34;&lt;/span&gt; + &lt;span style="color:#66d9ef"&gt;value&lt;/span&gt;); &lt;span style="color:#75715e"&gt;// Second decrement: 2&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;value&lt;/span&gt;--;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Console.WriteLine(&lt;span style="color:#e6db74"&gt;&amp;#34;Third decrement: &amp;#34;&lt;/span&gt; + &lt;span style="color:#66d9ef"&gt;value&lt;/span&gt;); &lt;span style="color:#75715e"&gt;// Third decrement: 1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item><item><title>Methods</title><link>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-03-methods/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-03-methods/</guid><description>&lt;!-- Methods --&gt;
 &lt;div class="note-card "&gt;
 &lt;div class="item"&gt;
 &lt;h5 class="note-title"&gt;&lt;span&gt;Methods&lt;/span&gt;&lt;/h5&gt;
@@ -80,7 +118,38 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="card"&gt;
-&lt;div class="card-body"&gt;&lt;p&gt;&lt;strong&gt;Optional parameters:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Flow Control</title><link>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-04-flow-control/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-04-flow-control/</guid><description>&lt;!-- Condition --&gt;
+&lt;div class="card-body"&gt;&lt;p&gt;&lt;strong&gt;Optional parameters:&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-csharp" data-lang="csharp"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;CountTo();
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;void&lt;/span&gt; CountTo(&lt;span style="color:#66d9ef"&gt;int&lt;/span&gt; max = &lt;span style="color:#ae81ff"&gt;10&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;for&lt;/span&gt; (&lt;span style="color:#66d9ef"&gt;int&lt;/span&gt; i = &lt;span style="color:#ae81ff"&gt;0&lt;/span&gt;; i &amp;lt; max; i++)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Console.Write(&lt;span style="color:#e6db74"&gt;$&amp;#34;{i}, &amp;#34;&lt;/span&gt;); &lt;span style="color:#75715e"&gt;// 0, 1, 2, 3, 4, 5, 6, 7, 8, 9&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; }
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="card"&gt;
+&lt;div class="card-body"&gt;&lt;p&gt;&lt;strong&gt;Returning values:&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-csharp" data-lang="csharp"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;int&lt;/span&gt; sum = SumTo(&lt;span style="color:#ae81ff"&gt;5&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Console.Write(&lt;span style="color:#e6db74"&gt;$&amp;#34;sum: {sum}&amp;#34;&lt;/span&gt;); &lt;span style="color:#75715e"&gt;// sum: 15&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;int&lt;/span&gt; SumTo(&lt;span style="color:#66d9ef"&gt;int&lt;/span&gt; max)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;int&lt;/span&gt; result = &lt;span style="color:#ae81ff"&gt;0&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;for&lt;/span&gt; (&lt;span style="color:#66d9ef"&gt;int&lt;/span&gt; i = &lt;span style="color:#ae81ff"&gt;1&lt;/span&gt;; i &amp;lt;= max; i++)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; result += i;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; }
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;return&lt;/span&gt; result;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item><item><title>Flow Control</title><link>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-04-flow-control/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-04-flow-control/</guid><description>&lt;!-- Condition --&gt;
 &lt;div class="note-card "&gt;
 &lt;div class="item"&gt;
 &lt;h5 class="note-title"&gt;&lt;span&gt;Condition&lt;/span&gt;&lt;/h5&gt;
@@ -152,7 +221,58 @@
 &lt;div class="item"&gt;
 &lt;h5 class="note-title"&gt;&lt;span&gt;Loop&lt;/span&gt;&lt;/h5&gt;
 &lt;div class="card"&gt;
-&lt;div class="card-body"&gt;&lt;p&gt;&lt;strong&gt;Foreach&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Data Type Conversion</title><link>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-05-convert-data-types/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-05-convert-data-types/</guid><description>&lt;!-- Casting type to convert --&gt;
+&lt;div class="card-body"&gt;&lt;p&gt;&lt;strong&gt;Foreach&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-csharp" data-lang="csharp"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;string&lt;/span&gt;[] names = { &lt;span style="color:#e6db74"&gt;&amp;#34;Rowena&amp;#34;&lt;/span&gt;, &lt;span style="color:#e6db74"&gt;&amp;#34;Robin&amp;#34;&lt;/span&gt;, &lt;span style="color:#e6db74"&gt;&amp;#34;Bao&amp;#34;&lt;/span&gt; };
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;foreach&lt;/span&gt; (&lt;span style="color:#66d9ef"&gt;string&lt;/span&gt; name &lt;span style="color:#66d9ef"&gt;in&lt;/span&gt; names)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Console.WriteLine(name); &lt;span style="color:#75715e"&gt;// &amp;#34;Rowena&amp;#34;, &amp;#34;Robin&amp;#34;, &amp;#34;Bao&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="card"&gt;
+&lt;div class="card-body"&gt;&lt;p&gt;&lt;strong&gt;For&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-csharp" data-lang="csharp"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;for&lt;/span&gt; (&lt;span style="color:#66d9ef"&gt;int&lt;/span&gt; i = &lt;span style="color:#ae81ff"&gt;0&lt;/span&gt;; i &amp;lt; &lt;span style="color:#ae81ff"&gt;10&lt;/span&gt;; i++)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;if&lt;/span&gt; (i &amp;gt; &lt;span style="color:#ae81ff"&gt;5&lt;/span&gt;) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;break&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; }
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Console.WriteLine(i); &lt;span style="color:#75715e"&gt;// 1, 2, 3, 4, 5&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="card"&gt;
+&lt;div class="card-body"&gt;&lt;p&gt;&lt;strong&gt;Do-While&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-csharp" data-lang="csharp"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Random random = &lt;span style="color:#66d9ef"&gt;new&lt;/span&gt; Random();
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;int&lt;/span&gt; current = &lt;span style="color:#ae81ff"&gt;0&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;do&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; current = random.Next(&lt;span style="color:#ae81ff"&gt;1&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;11&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;if&lt;/span&gt; (current &amp;gt;= &lt;span style="color:#ae81ff"&gt;8&lt;/span&gt;) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;continue&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; }
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Console.WriteLine(current);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;} &lt;span style="color:#66d9ef"&gt;while&lt;/span&gt; (current != &lt;span style="color:#ae81ff"&gt;7&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="card"&gt;
+&lt;div class="card-body"&gt;&lt;p&gt;&lt;strong&gt;While&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-csharp" data-lang="csharp"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Random random = &lt;span style="color:#66d9ef"&gt;new&lt;/span&gt; Random();
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;int&lt;/span&gt; current = random.Next(&lt;span style="color:#ae81ff"&gt;1&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;11&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;while&lt;/span&gt; (current &amp;gt;= &lt;span style="color:#ae81ff"&gt;3&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Console.WriteLine(current);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; current = random.Next(&lt;span style="color:#ae81ff"&gt;1&lt;/span&gt;, &lt;span style="color:#ae81ff"&gt;11&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Console.WriteLine(&lt;span style="color:#e6db74"&gt;$&amp;#34;Last number: {current}&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item><item><title>Data Type Conversion</title><link>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-05-convert-data-types/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-05-convert-data-types/</guid><description>&lt;!-- Casting type to convert --&gt;
 &lt;div class="note-card "&gt;
 &lt;div class="item"&gt;
 &lt;h5 class="note-title"&gt;&lt;span&gt;Casting&lt;/span&gt;&lt;/h5&gt;
@@ -217,7 +337,15 @@
 &lt;div class="item"&gt;
 &lt;h5 class="note-title"&gt;&lt;span&gt;Convert&lt;/span&gt;&lt;/h5&gt;
 &lt;div class="card"&gt;
-&lt;div class="card-body"&gt;&lt;p&gt;Convert rounds the value.&lt;/p&gt;</description></item><item><title>Methods on Arrays</title><link>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-06-methods-on-arrays/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-06-methods-on-arrays/</guid><description>&lt;!-- Sorting an array --&gt;
+&lt;div class="card-body"&gt;&lt;p&gt;Convert rounds the value.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-csharp" data-lang="csharp"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;string&lt;/span&gt; value1 = &lt;span style="color:#e6db74"&gt;&amp;#34;5&amp;#34;&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;string&lt;/span&gt; value2 = &lt;span style="color:#e6db74"&gt;&amp;#34;7&amp;#34;&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;int&lt;/span&gt; result = Convert.ToInt32(value1) * Convert.ToInt32(value2);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Console.WriteLine(result); &lt;span style="color:#75715e"&gt;// 35&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item><item><title>Methods on Arrays</title><link>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-06-methods-on-arrays/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-06-methods-on-arrays/</guid><description>&lt;!-- Sorting an array --&gt;
 &lt;div class="note-card "&gt;
 &lt;div class="item"&gt;
 &lt;h5 class="note-title"&gt;&lt;span&gt;Sort&lt;/span&gt;&lt;/h5&gt;
@@ -573,7 +701,42 @@
 &lt;div class="item"&gt;
 &lt;h5 class="note-title"&gt;&lt;span&gt;Constructors and initialization&lt;/span&gt;&lt;/h5&gt;
 &lt;div class="card"&gt;
-&lt;div class="card-body"&gt;&lt;p&gt;&lt;strong&gt;Accept default values&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Abstract Classes</title><link>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-10-abstract/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-10-abstract/</guid><description>&lt;!-- Example 1 --&gt;
+&lt;div class="card-body"&gt;&lt;p&gt;&lt;strong&gt;Accept default values&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Every .NET type has a default value. Typically, that value is 0 for number types, and null for all reference types. You can rely on that default value when it&amp;rsquo;s reasonable in your app.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="card"&gt;
+&lt;div class="card-body"&gt;&lt;p&gt;&lt;strong&gt;Field initializers&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-csharp" data-lang="csharp"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;public&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;class&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;Container&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;private&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;int&lt;/span&gt; _capacity;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;public&lt;/span&gt; Container(&lt;span style="color:#66d9ef"&gt;int&lt;/span&gt; capacity) =&amp;gt; _capacity = capacity;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="card"&gt;
+&lt;div class="card-body"&gt;&lt;p&gt;&lt;strong&gt;Primary Constructor&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-csharp" data-lang="csharp"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;public&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;class&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;Container&lt;/span&gt;(&lt;span style="color:#66d9ef"&gt;int&lt;/span&gt; capacity)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;private&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;int&lt;/span&gt; _capacity = capacity;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="card"&gt;
+&lt;div class="card-body"&gt;&lt;p&gt;&lt;strong&gt;Object initializer&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-csharp" data-lang="csharp"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;public&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;class&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;Person&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;public&lt;/span&gt; required &lt;span style="color:#66d9ef"&gt;string&lt;/span&gt; LastName { &lt;span style="color:#66d9ef"&gt;get&lt;/span&gt;; &lt;span style="color:#66d9ef"&gt;set&lt;/span&gt;; }
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;public&lt;/span&gt; required &lt;span style="color:#66d9ef"&gt;string&lt;/span&gt; FirstName { &lt;span style="color:#66d9ef"&gt;get&lt;/span&gt;; &lt;span style="color:#66d9ef"&gt;set&lt;/span&gt;; }
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;var&lt;/span&gt; p1 = &lt;span style="color:#66d9ef"&gt;new&lt;/span&gt; Person(); &lt;span style="color:#75715e"&gt;// Error! Required properties not set&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;var&lt;/span&gt; p2 = &lt;span style="color:#66d9ef"&gt;new&lt;/span&gt; Person() { FirstName = &lt;span style="color:#e6db74"&gt;&amp;#34;Grace&amp;#34;&lt;/span&gt;, LastName = &lt;span style="color:#e6db74"&gt;&amp;#34;Hopper&amp;#34;&lt;/span&gt; };
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item><item><title>Abstract Classes</title><link>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-10-abstract/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-10-abstract/</guid><description>&lt;!-- Example 1 --&gt;
 &lt;div class="note-card "&gt;
 &lt;div class="item"&gt;
 &lt;h5 class="note-title"&gt;&lt;span&gt;Example 1&lt;/span&gt;&lt;/h5&gt;
@@ -724,7 +887,15 @@
 &lt;div class="card"&gt;
 &lt;div class="card-body"&gt;&lt;p&gt;A record in C# is a class or struct that provides special syntax and behavior for working with data models. The record modifier instructs the compiler to synthesize members that are useful for types whose primary role is storing data. These members include an overload of ToString() and members that support value equality.&lt;/p&gt;
 &lt;h3 id="when-to-use"&gt;When to use&lt;/h3&gt;
-&lt;p&gt;Consider using a record in place of a class or struct in the following scenarios:&lt;/p&gt;</description></item><item><title>Interfaces</title><link>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-12-interfaces/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-12-interfaces/</guid><description>&lt;!-- Declaration --&gt;
+&lt;p&gt;Consider using a record in place of a class or struct in the following scenarios:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;You want to define a data model that depends on value equality.&lt;/li&gt;
+&lt;li&gt;You want to define a type for which objects are immutable.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item><item><title>Interfaces</title><link>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-12-interfaces/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-12-interfaces/</guid><description>&lt;!-- Declaration --&gt;
 &lt;div class="note-card "&gt;
 &lt;div class="item"&gt;
 &lt;h5 class="note-title"&gt;&lt;span&gt;Declaration&lt;/span&gt;&lt;/h5&gt;
